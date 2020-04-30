@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <h2>Contact Form</h2>
+        <form method="post" action="">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Send Message">
+        </form>
+    </body>
+</html>
