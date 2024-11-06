@@ -1,0 +1,7 @@
+[project]
+name = "django-celery-example"
+version = "0.1.0"
+description = "Basic Django Celery Example"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["celery>=5.4.0", "django>=4.2.0", "redis>=5.2.0"]
